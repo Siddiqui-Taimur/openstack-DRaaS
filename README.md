@@ -14,7 +14,8 @@ Under different disaster scenarios, these automatic failover schemes are experim
 • Python 2.7 environment on each machine.
 
 ## Info Graphics
-![alt tag](info_graphics/dns_based.png)
+@DNS-based-failover
+![alt tag](info_graphics/detailed_graphics/DNS/a_without_any_disaster.png) ![alt tag](info_graphics/detailed_graphics/DNS/b_service_is_un-available.png) ![alt tag](info_graphics/detailed_graphics/DNS/c_service_is_available_again.png)  
 
 ## Installation
 
