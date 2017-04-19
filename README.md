@@ -13,6 +13,9 @@ Under different disaster scenarios, these automatic failover schemes are experim
 • For Frontend scheme, you must have one extra machine. For Hybrid scheme you must have two extra machines apart from OpenStack deployed machines.
 • Python 2.7 environment on each machine.
 
+## Info Graphics
+![alt tag](info_graphics/dns_based.png)
+
 ## Installation
 
 Clone this project, and navigate to dns_based directory. Inside this directory there are two directories as well named drass-primary and drass- secondary. For any failover scheme, these two setup directories are compulsory to provide data synchronization between two main openstack nodes. Place drass-primary into the primary openstack node and draas-secondary into the secondary openstack node.
