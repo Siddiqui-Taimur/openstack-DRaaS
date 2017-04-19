@@ -1,1 +1,1 @@
-# openstack-DRaaS
+DNS based directory has basic primary and secondary openstack data synchornization setups and programs. In both directories, there is failover.conf file which has to be changed according to your scenario. For instance, you have to change some IPs, credentials, and enable the failover scheme which ever you want.
