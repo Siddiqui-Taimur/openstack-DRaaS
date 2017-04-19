@@ -1,4 +1,4 @@
-## Synopsis
+# Synopsis
 
 Failover is an important component of disaster recovery. It is a mechanism of routing the users’ traffic to the DR site, after the disaster gets confirmed in the primary site. In this project, the implementation of different automatic failover schemes is presented and tested for Disaster Recovery as a Service (DRaaS) in OpenStack. These Failover schemes are:
    • DNS Based Failover
@@ -6,22 +6,22 @@ Failover is an important component of disaster recovery. It is a mechanism of ro
    • Hybrid Based Failover.
 Under different disaster scenarios, these automatic failover schemes are experimented and analyzed. These results suggest that a Hybrid scheme is more likely to recover quickly from the different levels of disaster.
 
-## Prerequisites
+# Prerequisites
 
 • For any scheme to be used, at least two machines are required with OpenStack deployed on each.
 • For DNS and Hybrid based scheme, account of NO-IP is required with at least one hostname provided by this (NO-IP is an open source DNS and Dynamic DNS service providers, for more info visit http://www.noip.com/)
 • For Frontend scheme, you must have one extra machine. For Hybrid scheme you must have two extra machines apart from OpenStack deployed machines.
 • Python 2.7 environment on each machine.
 
-## Info Graphics
-# DNS-based-failover
+# Info Graphics
+## DNS-based-failover
 ![alt tag](info_graphics/detailed_graphics/DNS/a_without_any_disaster.png) 
-# Frontend-based-failover
+## Frontend-based-failover
 ![alt tag](info_graphics/detailed_graphics/Frontend/a_without_any_disaster.png) 
-# Hybrid(Combination of DNS+Frontend)-based-failover
+## Hybrid(Combination of DNS+Frontend)-based-failover
 ![alt tag](info_graphics/detailed_graphics/Hybrid/a_withoutAnyDisaster.png)  
 
-## Installation
+# Installation
 
 Clone this project, and navigate to dns_based directory. Inside this directory there are two directories as well named drass-primary and drass- secondary. For any failover scheme, these two setup directories are compulsory to provide data synchronization between two main openstack nodes. Place drass-primary into the primary openstack node and draas-secondary into the secondary openstack node.
 Both these directories contain some configuration files (draas.conf, keystone.conf, etc). These files are commented so you can figure out it that how to configure them according to your environment.
@@ -31,15 +31,15 @@ If you enable DNS-based scheme, then you don’t need any extra machine other th
 
 Note: Any failover scheme you choose to proceed with, you must have two machines with OpenStack deployed on each. After running the DraaS.py file on both, they must be having in synchronization state with each other in order to sync the data and logs.   
 
-## Tests
+# Tests
 
 If you want to test these schemes in order to measure the RTO or total downtime then run the TestingRTO.py file after updating with your hostname in the file.
 
-## Contributors
+# Contributors
 
 Supervisors: Dr. Adnan Iqbal and Dr. Saqib Ilyas
 
  
-## License
+# License
 
 https://www.namal.edu.pk/pdrg/
