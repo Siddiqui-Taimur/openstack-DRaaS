@@ -8,7 +8,7 @@ Under different disaster scenarios, these automatic failover schemes are experim
 
 ## Prerequisites
 
-• For every scheme to be used, at least two machines are required with OpenStack deployed on each.
+• For any scheme to be used, at least two machines are required with OpenStack deployed on each.
 • For DNS and Hybrid based scheme, account of NO-IP is required with at least one hostname provided by this (NO-IP is an open source DNS and Dynamic DNS service providers, for more info visit http://www.noip.com/)
 • For Frontend scheme, you must have one extra machine. For Hybrid scheme you must have two extra machines apart from OpenStack deployed machines.
 • Python 2.7 environment on each machine.
