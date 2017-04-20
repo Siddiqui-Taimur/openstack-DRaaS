@@ -7,8 +7,8 @@ import json
 import socket
 
 # setting default timeout for all type of sockets, change it according to your needs
-#  here we are setting this 0.7 timeout for testing purposes in local environment
-socket.setdefaulttimeout(0.7)
+#  here we are setting this 2 sec timeout for testing purposes in our local environment
+socket.setdefaulttimeout(2)
 
 # hostname
 hostname =  'namaltesting.ddns.net'
