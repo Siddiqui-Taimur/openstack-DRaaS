@@ -1,9 +1,9 @@
 # Synopsis
 
 Failover is an important component of disaster recovery. It is a mechanism of routing the users’ traffic to the DR site, after the disaster gets confirmed in the primary site. In this project, the implementation of different automatic failover schemes is presented and tested for Disaster Recovery as a Service (DRaaS) in OpenStack. These Failover schemes are:
-   • DNS Based Failover
-   • Frontend Based Failover
-   • Hybrid Based Failover.
+   • **DNS Based Failover**
+   • **Frontend Based Failover**
+   • **Hybrid Based Failover**
 Under different disaster scenarios, these automatic failover schemes are experimented and analyzed. These results suggest that a Hybrid scheme is more likely to recover quickly from the different levels of disaster.
 
 # Prerequisites
